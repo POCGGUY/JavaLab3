@@ -26,8 +26,8 @@ public class Main {
         double sum_I2 = 0.0;
 
         for (int i = 0; i < n; i++) {
-            sum_IU += I.get(i) * U.get(i);  // сумма I_i * U_i
-            sum_I2 += I.get(i) * I.get(i);  // сумма I_i^2
+            sum_IU += I.get(i) * U.get(i);
+            sum_I2 += I.get(i) * I.get(i);
         }
 
         double R = sum_IU / sum_I2;
